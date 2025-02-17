@@ -1,0 +1,85 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+    border: 0px 
+}
+
+body{
+    background-image:url(assets/memphis-colorful.png);
+}
+
+header {
+    background-color: #8ca8dd;
+    padding: 40px; 
+    border-bottom: 3px solid navy
+    } 
+
+.container {
+    margin: 0px auto;
+    max-width: 900px;
+}
+
+h1 {
+    float: left;
+    color: white;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: white;
+    font-family: sans-serif;
+    margin: 5px;
+}
+main {
+    background-color: #dce8ff;
+    color: navy;
+    float: left;
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.profile-image {
+    float: left;
+    margin: 0px 15px 7px 0px;
+}
+
+ p{
+    margin: 0px 0px 10px;
+ }
+
+aside {
+    background-color: #dce8ff;
+    color: navy;
+    float: right;
+    width: 20%;
+    padding: 10px;
+}
+
+aside a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+}
+
+aside img {
+    box-shadow: 2px 2px gray;
+}
+
+.footer {
+    clear: both;
+    background-color: #8ca8dd;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    border-top: 3px solid navy;
+    padding: 5px;
+}
+
+.main-content {
+    margin: 10px auto;
+}
